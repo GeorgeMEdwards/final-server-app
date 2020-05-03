@@ -1,0 +1,26 @@
+{
+  "name": "final-server-side",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha || true 'test/**/*.js' --recursive --file test/mocha-setup.js",
+    "test:watch": "mocha || true 'test/**/*.js' --recursive --file test/mocha-setup.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeorgeMEdwards/final-server-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GeorgeMEdwards/final-server-app/issues"
+  },
+  "homepage": "https://github.com/GeorgeMEdwards/final-server-app#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^7.1.2",
+    "regenerator-runtime": "^0.13.5"
+  }
+}
